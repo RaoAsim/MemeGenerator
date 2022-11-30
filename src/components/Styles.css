@@ -1,0 +1,78 @@
+.form{
+    display: grid;
+    grid-template: 40px 40px/1fr 1fr;
+    gap:17px;
+    
+}
+.main-top{
+    position: absolute;
+    width: 106px;
+    height: 39px;
+    left: 700px;
+    top: 300px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.main-bottom{
+    position: absolute;
+    width: 255px;
+    height: 39px;
+    left: 700px;
+    top: 600px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+/* identical to box height */
+}
+.image{
+    width: 400px;
+    padding-left: 500px;
+    margin-top: 55px;
+    height: 400px;
+}
+.form-button{
+    grid-column: 1/-1;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background:  linear-gradient(90deg, #672280 1.18%, #6B2285 7.32%, #A626D3 100%);
+}
+.form-input{
+    border-radius: 5px;
+    border:1px solid D5D4d8;
+    text-indent:5px ;
+}
+main{
+    padding: 36px;
+}
+
+.nav{
+    display:flex;
+    align-items: center;
+    padding: 12px 20px;
+    box-shadow: 0px 3px 7.5px rgba(0,0,0, 0.1);
+    height: 80px;
+    background:  linear-gradient(90deg, #672280 1.18%, #6B2285 7.32%, #A626D3 100%);
+}
+.nav-heading{
+    color: white;
+    padding-left: 5px;
+}
+.nav-text{
+    margin:0px;
+    color: white;
+    padding-left: 1000px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.nav-img{
+    width: 40px;
+    height: 40px;
+}
