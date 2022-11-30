@@ -6,7 +6,7 @@ function Meme() {
     const [meme,setMeme]=useState({
         url:"./TrollFace.png",
         toptext:"",
-        bottomtext:""
+        bottomtext:"bb"
     })
     useEffect(()=>{
         async function getmeme(){
